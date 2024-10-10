@@ -1,7 +1,8 @@
 package main
 
 import (
-	"golesson/defer_statement"
+	"fmt"
+	"golesson/project"
 )
 
 func main() {
@@ -56,5 +57,21 @@ func main() {
 
 	// interfaces.Demo2()
 
-	defer_statement.Demo3()
+	// defer_statement.Demo3()
+
+	// error_handling.Demo1()
+
+	// interfaces.Demo3()
+
+	// fmt.Println(error_handling.TahminEt2(102))
+
+	// string_functions.Demo2()
+
+	// restful.Demo2()
+	project.AddProduct()
+	products, _ := project.GetAllProducts()
+
+	for i := 0; i < len(products); i++ {
+		fmt.Println(products[i].ProductName)
+	}
 }

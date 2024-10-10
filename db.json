@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "productName": "Laptop",
+      "categoryId": 1,
+      "unitPrice": 5000.99
+    },
+    {
+      "id": "2",
+      "productName": "Mouse",
+      "categoryId": 1,
+      "unitPrice": 50
+    },
+    {
+      "id": "3",
+      "productName": "Water",
+      "categoryId": 2,
+      "unitPrice": 23.21
+    },
+    {
+      "id": 4,
+      "productName": "Xbox",
+      "categoryId": 1,
+      "unitPrice": 22500
+    },
+    {
+      "id": 4,
+      "productName": "Xbox",
+      "categoryId": 1,
+      "unitPrice": 22500
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "categoryName": "Technology"
+    },
+    {
+      "id": "2",
+      "categoryName": "Beverages"
+    }
+  ]
+}
